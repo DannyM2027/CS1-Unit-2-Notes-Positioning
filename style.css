@@ -7,3 +7,32 @@ img {
     bottom: 24%;
     right: 275px;
 }
+
+/* DIVs are normally BLOCK elements, but we can change that with the display property */
+#container-rel {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+}
+
+#relative {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    z-index: 5;
+    /* z-index affects DEPTH of positioned elements */
+
+}
+
+#fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#static {
+}
+
+body {
+    height: 200%;
+}
+
